@@ -27,16 +27,12 @@ int hitungDenda(int hariTerlambat) {
 void main() {
   // Skenario 1 kalo pinjam nya berhasil
   print(prosesPinjam(1, "tersedia"));
-
   // Skenario 2 gagal kalo buku sedang dipinjam
   print(prosesPinjam(1, "dipinjam"));
-
   // Skenario 3 gagal karena maksimal pinjam 3
   print(prosesPinjam(3, "tersedia"));
-
   // Skenario 4 kalo kembaliin buku tepat waktu
   print("Denda: Rp${hitungDenda(0)}");
-
   // Skenario 5 kalo telat balikin buku denda 4000
   print("Denda: Rp${hitungDenda(4)}");
 }
