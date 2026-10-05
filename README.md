@@ -1,11 +1,6 @@
 # HW 2 — Computational Thinking dengan Dart
 
-- **Use case:** Perpustakaan
-- **Nama:** Nama Kamu
-- **NIM:** NIM Kamu
-- **Link DartPad:** (tempel link DartPad kamu di sini)
 
----
 
 # Dokumen Analisis PERPUSTAKAAN
 
